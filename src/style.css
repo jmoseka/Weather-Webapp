@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background: rgb(233,166,166);
+    background: linear-gradient(180deg, rgba(233,166,166,1) 19%, rgba(134,72,121,1) 36%, rgba(31,29,54,1) 73%);
+    display: block;
+}
+
+.container-main {
+    width: 100vw;
+    height: 80vh;
+}
+
+.header{
+    border: 0;
+    padding: 0;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(233,166,166, 0.6), rgba(255, 255, 255, 0.6)), url('https://i.postimg.cc/NftHSgRh/nairobi-web-1d43d8c0ec.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card {
+    height: 70vw;
+}
