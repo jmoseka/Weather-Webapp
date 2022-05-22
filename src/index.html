@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-main">
+        <div>
+            <div class="header">
+                <header class="top-header d-flex align-items-center justify-content-between">
+                    <div class="mx-5 my-5">
+                        <h1 class="location">Nairobi</h1>
+                        <h3 class="date">September 17</h3>
+                    </div>
+                    <div class="search mx-5 my-5">
+                        <input type="text" placeholder="Search city">
+                    </div>
+                </header>
+
+                <!--CARD-->
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="card col-10">
+                        <div class="top-body d-flex align-items-center justify-content-center">
+                            <div class="card-body-title">
+                                <h2 class="text-center">90 C</h2>
+                            </div>
+                            <!--Flex box of aside content-->
+                            <div class="card-body-content d-flex">
+                                <div class="content-1">
+                                    <ul class="list-unstyled list-icon-text">
+                                        <li class="d-flex flex-row align-items-center ms-4 mt-3">
+                                            <!--icon and text-->
+                                            <div class="icon-info">
+                                                <img class="temp-icon" src="./assets/images/weather-icons/24w/temp.png" alt="Temperature icon">
+                                            </div>
+                                            <div class="icon-text d-flex flex-column">
+                                                <p class="p-2 weather-start">Temperature</p> <p class="p-2">90 C</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="d-flex flex-row ms-4 mt-3">
+                                            <!--icon and text-->
+                                            <div class="icon-info">
+                                                <img class="humidity-icon" src="./assets/images/weather-icons/24w/humidity.png" alt="Humidity icon">
+                                            </div>
+                                            <div class="icon-text d-flex flex-column">
+                                                <p class="p-2 weather-start">Humidity</p> <p class="p-2">90 C</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="d-flex flex-row ms-4 mt-3">
+                                            <!--icon and text-->
+                                            <div class="icon-info">
+                                                <img class="wind-icon" src="assets/images/weather-icons/24w/wind.png" alt="Wind icon">
+                                            </div>
+                                            <div class="icon-text d-flex flex-column">
+                                                <p class="p-2 weather-start">Wind</p> <p class="p-2">24 km/hr</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="content-2 d-flex flex-column">
+                                    <div class="sunrise d-flex align-items-center justify-content-center">
+                                        Sunrise
+                                    </div>
+                                    <div class="sunset d-flex align-items-center justify-content-center">
+                                        Sunset
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Card top header-->
+
+                        <div class="card-bottom bg-primary col-12">
+                            <ul class="list-unstyled daily d-flex justify-content-evenly">
+                                <li>mon</li>
+                                <li>tue</li>
+                                <li>wed</li>
+                                <li>thur</li>
+                                <li>fri</li>
+                                <li>sat</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
