@@ -33,6 +33,7 @@ module.exports = {
           options: {
             limit: 8000, // Convert images < 8kb to base64 strings
             name: 'images/[hash]-[name].[ext]',
+            output: 'images',
           },
         }],
       },
